@@ -10,25 +10,18 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+<body>
 	<div class="container">
 		  		<div class="row">
-		  		<div class="col-12 border bg-primary text-white" style="height:100px">
-		  	</div>
+		  		<div class="col-12 border bg-primary text-white" style="height:100px">header
+		  		</div>
 
 		  	<nav class="navbar col-12 navbar-expand-lg navbar-dark bg-dark sticky-top">
-			  		 <a class="navbar-brand" href="JavaScript:void(0)">MyLogo</a>
-			  		 	<button class="navbar-toggler navbar-toggler-right"
-			      				type="button" data-toggle="collapse"
-			      				data-target="#navb">
-			  		 		 <span class="navbar-toggler-icon"></span>
-			  		 	</button>
-
 				  	<div class="collapse navbar-collapse" id="navb">
 				  		<ul class="navbar-nav mr-auto">
 				  			<li class="nav-item">
 				  				<a class="nav-link active" 
-				            		href="JavaScript:void(0)">Guest Book</a>
+				            		href="JavaScript:void(0)">Data Komentar</a>
 				  			</li>
 				  		</ul>
 					  	<form class="form-inline my-2 my-lg-0">
@@ -38,37 +31,52 @@
 					  	</form>
 					 </div>
 			</nav>
-			
-			<div class="col-12 col-md-8 col-lg-10 bg-warning text-dark text-center" style="
-				  min-height: 650px">Guest Book<br>
-			<form>
-				  	<div class="form-group row">
-		        			<label for="nama" class="col-sm-1 col-form-label">nama
-		        			</label>
-		        		<div class="col-sm-10">
-		        			<input type="email" class="form-control" id="nama" placeholder="Nama">
-		        		</div>
-		      		</div>
-
-		      		<div class="form-group row">
-		        			<label for="email" class="col-sm-1 col-form-label">email
-		        			</label>
-		        		<div class="col-sm-10">
-		        			<input type="email" class="form-control" id="alamat" placeholder="email">
-		        		</div>
-		      		</div>
-
-		      		<div class="form-group row">
-		        			<label for="email" class="col-sm-1 col-form-label">pesan
-		        			</label>
-		        		<div class="col-sm-10">
-		        			<input type="email" class="form-control" id="pesan" placeholder="pesan">
-		        		</div>
-		      		</div>
-
-		      		<button type="submit" class="btn btn-primary col-12 col-md-8 col-lg-10">send</button>
-			</form>
-		</div>
+		<div class="col-12 col-md-8 col-lg-10 bg-warning text-dark text-center" style="
+				  min-height: 650px">
+			<div class="container">
+          
+  				<table class="table table-primary table-hover table table-bordered" style="margin-top: 30px">
+    				<thead>
+      					<tr>
+        					<th>nomor</th>
+        					<th>nama</th>
+        					<th>Email</th>
+        					<th>komentar</th>
+      					</tr>
+    				</thead>
+    					<tbody class="bg-light text-dark">
+      						<tr>
+        						<td>1</td>
+        						<td></td>
+        						<td></td>
+        						<td></td>
+      							</tr>
+      						<tr>
+        						<td>2</td>
+        						<td></td>
+        						<td></td>
+        						<td></td>
+      						</tr>
+      						<tr>
+        						<td>3</td>
+        						<td></td>
+        						<td></td>
+        						<td></td>
+      						</tr>
+      							<td>4</td>
+        						<td></td>
+        						<td></td>
+        						<td></td>
+      						</tr>
+      							<td>5</td>
+        						<td></td>
+        						<td></td>
+        						<td></td>
+      						</tr>
+    					</tbody>
+  				</table>
+			</div>
+	</div>
 					<div class="col-12 col-md-4 col-lg-2 bg-danger text-light">
 						 banner<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol  class="carousel-indicators">
@@ -107,10 +115,16 @@
   			</div>
   					<div class="col-12 bg-info text-light">footer
   					</div>
-					</div>
+					
 
-  	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+  		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="
+  		 			anonymous">
+  		 </script>
+    	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo
+    	 			" crossorigin="anonymous">
+    	 </script>
+    	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/
+    	 			kR0JKI" crossorigin="anonymous">
+    	 </script>
+</body>
   
